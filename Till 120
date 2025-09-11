@@ -1,0 +1,10 @@
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Write your code below
+    int age = int.Parse(Console.ReadLine());
+    int holder = 120 - age;
+    Console.WriteLine(holder + " years till 120");
+    }
+}
