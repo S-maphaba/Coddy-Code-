@@ -1,6 +1,19 @@
 # Coddy-Code-
 I post my coddy code https://coddy.tech/journeys/csharp/fundamentals
+Modifying Arrays
 
+
+In addition to accessing the elements of an array, you can also modify them. To modify a specific element in an array, you can assign a new value to it using its index.
+
+Here's an example:
+
+string[] my_array = {"apple", "banana", "cherry"};
+my_array[1] = "orange";
+System.Console.WriteLine(my_array[0] + ", " + my_array[1] + ", " + my_array[2]);
+Output:
+
+apple, orange, cherry
+banana was changed to an orange
 
 Arrays are collections of items created using square brackets [] with items separated by commas:
 
